@@ -19,5 +19,28 @@
     sheet.insertRule('.TwitterPhoto-mediaSource { margin-top: 0px !important; }', sheet.cssRules.length);
     sheet.insertRule('.media-thumbnail { max-height: 100% !important; }', sheet.cssRules.length);
     sheet.insertRule('.media-thumbnail img { margin-top: 0px !important; }', sheet.cssRules.length);
+    sheet.insertRule('.FlexEmbed--2by1:before { padding-bottom: 0px !important; }', sheet.cssRules.length);
+    sheet.insertRule('.FlexEmbed-item { position: relative !important; }', sheet.cssRules.length);
+    sheet.insertRule('.TwitterMultiPhoto-image img {' +
+                     '    width: 100% !important; height: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.TwitterMultiPhoto-image, .TwitterMultiPhoto-image img {' +
+                     '    position: relative !important;' +
+                     '    top: 0px !important;' +
+                     '    bottom: 0px !important;' +
+                     '    left: 0px !important;' +
+                     '    right: 0px !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.multi-photos { height: auto !important;}', sheet.cssRules.length);
+    sheet.insertRule('.multi-photos .multi-photo {' +
+                     '    height: auto !important;' +
+                     '    width: auto !important;' +
+                     '    margin-right: 0px !important;' +
+                     '    margin-bottom: 6px !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.multi-photos .multi-photo img {' +
+                     '    top: 0px !important;' +
+                     '    position: relative !important;' +
+                     '}', sheet.cssRules.length);
 })();
 
