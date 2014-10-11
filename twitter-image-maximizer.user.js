@@ -41,6 +41,9 @@
     sheet.insertRule('.multi-photos .multi-photo img {' +
                      '    top: 0px !important;' +
                      '    position: relative !important;' +
+                     '    left: 0 !important;' +
+                     '    width: 100% !important;' +
+                     '    height: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.QuoteTweet .multi-photo img {' +
                      '    left: 0px !important;' +
