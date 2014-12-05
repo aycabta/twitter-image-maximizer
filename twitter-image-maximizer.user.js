@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name       Twitter Image Maximizer
 // @namespace  http://aycabta.github.io/
-// @version    0.1.4
+// @version    0.1.6
 // @description  Show whole images on Twitter
-// @include    /^https:\/\/twitter.com
+// @include    /^https?:\/\/twitter.com/
 // @copyright  2014+, Code Ass
 // ==/UserScript==
 
