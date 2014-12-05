@@ -5,8 +5,9 @@ Twitter Image Maximizer
 
 ## Example
 
-* original
-    * ![original](original.png)
-* applied
-    * ![applied](applied.png)
+### original
+![original](original.png)
+
+### applied
+![applied](applied.png)
 
