@@ -22,7 +22,8 @@
     sheet.insertRule('.FlexEmbed--2by1:before { padding-bottom: 0px !important; }', sheet.cssRules.length);
     sheet.insertRule('.FlexEmbed-item { position: relative !important; }', sheet.cssRules.length);
     sheet.insertRule('.TwitterMultiPhoto-image img {' +
-                     '    width: 100% !important; height: auto !important;' +
+                     '    width: 100% !important;' +
+                     '    height: auto !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.TwitterMultiPhoto-image, .TwitterMultiPhoto-image img {' +
                      '    position: relative !important;' +
