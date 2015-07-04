@@ -56,5 +56,6 @@
     sheet.insertRule('.u-alignTop {' +
                      '    vertical-align: baseline !important;' +
                      '    display: inline-block !important;' +
+                     '}', sheet.cssRules.length);
 })();
 
