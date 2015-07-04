@@ -53,6 +53,8 @@
                      '}', sheet.cssRules.length);
     sheet.insertRule('.QuoteTweet .multi-photos { width: 100% !important;}', sheet.cssRules.length);
     sheet.insertRule('.u-tableCell { display: block !important;}', sheet.cssRules.length);
-    sheet.insertRule('.u-alignTop { vertical-align: baseline !important;}', sheet.cssRules.length);
+    sheet.insertRule('.u-alignTop {' +
+                     '    vertical-align: baseline !important;' +
+                     '    display: inline-block !important;' +
 })();
 
