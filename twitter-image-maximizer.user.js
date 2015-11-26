@@ -43,5 +43,8 @@
     sheet.insertRule('.OldMedia--hiddenWhenNotExpanded {' +
                      '    display: inline !important;' +
                      '}', sheet.cssRules.length);
+    sheet.insertRule('#retweet-tweet-dialog-body {' +
+                     '    height: 0px !important;' +
+                     '}', sheet.cssRules.length);
 })();
 
