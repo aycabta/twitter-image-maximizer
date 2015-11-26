@@ -40,5 +40,8 @@
     sheet.insertRule('.OldMedia {' +
                      '    max-height: none !important;' +
                      '}', sheet.cssRules.length);
+    sheet.insertRule('.OldMedia--hiddenWhenNotExpanded {' +
+                     '    display: inline !important;' +
+                     '}', sheet.cssRules.length);
 })();
 
