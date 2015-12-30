@@ -15,36 +15,46 @@
     var head = document.getElementsByTagName('head')[0];
     head.appendChild(style);
     sheet = style.sheet;
-    sheet.insertRule('.permalink-tweet .OldMedia-quadPhoto, .permalink-tweet .OldMedia-triplePhoto, .permalink-tweet .OldMedia-doublePhoto {' +
-                     '    height: auto !important;' +
-                     '    width: 100% !important;' +
-                     '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia-photoContainer {' +
-                     '    height: 100% !important;' +
-                     '    width: 100% !important;' +
-                     '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia-photoContainer img {' +
-                     '    position: static !important;' +
-                     '    width: 100% !important;' +
-                     '    margin-bottom: 7px !important;' +
-                     '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia-halfPhoto, .OldMedia-quarterPhotoContainer, .OldMedia-quarterPhoto {' +
-                     '    width: auto !important;' +
-                     '    height: auto !important;' +
-                     '    margin-right: 0px !important;' +
-                     '    margin-left: 0px !important;' +
-                     '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia-quadPhoto, .OldMedia-triplePhoto, .OldMedia-doublePhoto {' +
-                     '    height: auto !important;' +
-                     '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia {' +
+    sheet.insertRule('.AdaptiveMedia.is-square, .AdaptiveMedia.is-square .AdaptiveMedia-videoPreview {' +
                      '    max-height: none !important;' +
                      '}', sheet.cssRules.length);
-    sheet.insertRule('.OldMedia--hiddenWhenNotExpanded {' +
-                     '    display: inline !important;' +
+    sheet.insertRule('.AdaptiveMedia {' +
+                     '    max-height: none !important;' +
                      '}', sheet.cssRules.length);
-    sheet.insertRule('#retweet-tweet-dialog-body {' +
-                     '    height: 0px !important;' +
+    sheet.insertRule('.AdaptiveMedia-photoContainer img {' +
+                     '    top: auto !important;' +
+                     '    left: auto !important;' +
+                     '    position: static !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-halfWidthPhoto {' +
+                     '    width: 100% !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-doublePhoto {' +
+                     '    height: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-twoThirdsWidthPhoto {' +
+                     '    with: 100% !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-triplePhoto {' +
+                     '    height: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-halfHeightPhoto {' +
+                     '    height: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-halfHeightPhotoContainer {' +
+                     '    width: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-threeQuartersWidthPhoto {' +
+                     '    width: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-quadPhoto {' +
+                     '    height: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.AdaptiveMedia-thirdHeightPhotoContainer {' +
+                     '    width: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.content-main .expansion-container > li {' +
+                     '    line-height: 18px !important;' +
                      '}', sheet.cssRules.length);
 })();
 
