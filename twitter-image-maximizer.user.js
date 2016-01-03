@@ -25,6 +25,7 @@
                      '    top: auto !important;' +
                      '    left: auto !important;' +
                      '    position: static !important;' +
+                     '    max-width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-halfWidthPhoto {' +
                      '    width: 100% !important;' +
@@ -43,15 +44,18 @@
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-halfHeightPhotoContainer {' +
                      '    width: auto !important;' +
+                     '    max-width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-threeQuartersWidthPhoto {' +
                      '    width: auto !important;' +
+                     '    max-width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-quadPhoto {' +
                      '    height: auto !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-thirdHeightPhotoContainer {' +
                      '    width: auto !important;' +
+                     '    max-width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.content-main .expansion-container > li {' +
                      '    line-height: 18px !important;' +
