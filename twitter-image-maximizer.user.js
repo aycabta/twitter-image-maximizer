@@ -33,7 +33,7 @@
                      '    height: auto !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-twoThirdsWidthPhoto {' +
-                     '    with: 100% !important;' +
+                     '    width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-triplePhoto {' +
                      '    height: auto !important;' +
