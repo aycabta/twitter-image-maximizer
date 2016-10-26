@@ -25,6 +25,7 @@
                      '    top: auto !important;' +
                      '    left: auto !important;' +
                      '    position: static !important;' +
+                     '    width: 100% !important;' +
                      '    max-width: 100% !important;' +
                      '}', sheet.cssRules.length);
     sheet.insertRule('.AdaptiveMedia-halfWidthPhoto {' +
