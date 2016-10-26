@@ -60,5 +60,15 @@
     sheet.insertRule('.content-main .expansion-container > li {' +
                      '    line-height: 18px !important;' +
                      '}', sheet.cssRules.length);
+    sheet.insertRule('.MomentCapsuleCover-media .MomentMediaItem {' +
+                     '    height: auto !important;' +
+                     '    width: auto !important;' +
+                     '}', sheet.cssRules.length);
+    sheet.insertRule('.MomentMediaItem-entity {' +
+                     '    margin-left: 0 !important;' +
+                     '    margin-top: 0 !important;' +
+                     '    width: 100% !important;' +
+                     '    height: 100% !important;' +
+                     '}', sheet.cssRules.length);
 })();
 
