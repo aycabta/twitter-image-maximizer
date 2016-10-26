@@ -1,4 +1,4 @@
-// ==UserScript==
+﻿// ==UserScript==
 // @name       Twitter Image Maximizer
 // @namespace  http://aycabta.github.io/
 // @version    0.2.4
