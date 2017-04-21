@@ -4,7 +4,7 @@
 // @version    0.2.6
 // @description  Show whole images on Twitter
 // @include    /^https?:\/\/twitter.com/
-// @copyright  2014+, Code Ass
+// @copyright  2014+, aycabta
 // ==/UserScript==
 
 (function() {
