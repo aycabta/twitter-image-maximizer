@@ -10,4 +10,3 @@ Twitter Image Maximizer
 
 ### applied
 ![applied](applied.png)
-

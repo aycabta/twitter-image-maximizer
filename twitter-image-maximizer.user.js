@@ -72,4 +72,3 @@
                      '    height: 100% !important;' +
                      '}', sheet.cssRules.length);
 })();
-
